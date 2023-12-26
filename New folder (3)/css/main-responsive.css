@@ -1,0 +1,120 @@
+*{
+    box-shadow: none; 
+    list-style: none; 
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 767px){
+    .title-heading h4{
+        font-size: 20px;
+    }
+    .title-heading h3{
+        font-size: 18px;
+    }
+    .title-heading h5{
+        font-size: 16px;
+    }
+    .title-heading p{
+        font-size: 14px; 
+        text-align: justify;
+    }
+
+
+    .badge { 
+        color: var(--bg-primary); 
+        font-size: 0.875rem; 
+        font-weight: 400; 
+        padding: 5px 5px 5px 5px; 
+        margin: 5px 0px 2px 4px;
+    }
+
+    /* Header Start */
+    .header-section .justify-content-center{
+        justify-content: start;
+    }
+    .header-section .offcanvas-start{ 
+        width: 70%; 
+        padding: 15px 0 0 0;
+    }
+    .header-section .navbar-nav{
+        width: 100%; 
+        padding: 10px;
+    }
+    .header-section .info{
+        width: 100%; 
+        padding: 10px;
+    }
+    .header-section .info h3{
+        font-size: 15px;
+    }
+    .header-section .info li{
+        width: 100%; 
+        padding: 10px 20px; 
+        background: var(--bg-gray); 
+        margin-bottom: 10px; 
+        border-radius: 10px;
+    }
+    .header-section .navbar-nav .nav-item{
+         background: var(--bg-gray);
+         margin-bottom: 10px; 
+         border-radius: 10px;
+        }
+    /* Header Start */
+
+
+    /* Banner Section Start */
+    .banner-section .content-box{ 
+        text-align: center; 
+    }
+    .banner-section h1{
+        font-size: 1.2em; 
+        color: var(--bg-primary); 
+        text-shadow: none;
+    }
+    .heading-title h2{
+        font-size: 18px;
+    }
+    /* Banner Section End */
+
+
+    /* Feature Section Start */
+    .feature-section .icon img{
+        width: 40px;
+    }
+    .feature-section p{
+        font-size: 10px;
+    }
+    .feature-section .icon-base{
+        padding: 0.5em;
+    }
+    /* Feature Section End */
+
+
+    /* Event Section Start */
+    .event-section .card{
+        margin-bottom: 10px;
+    }
+    /* Event Section End */
+
+    /* WHat we do Section Start */
+    .what-we-do{
+        padding: 1.5em;
+    }
+    .what-we-do .vector-image{ 
+        margin-bottom: 2rem; 
+    }
+    /* WHat we do Section End */
+}
+
+
+@media only screen and (min-width : 767px){
+    .offcanvas{
+        position: unset; 
+        visibility: unset; 
+    }
+    .offcanvas-start{
+         width: auto; 
+         border: none; 
+         transform: none;
+    }
+}
